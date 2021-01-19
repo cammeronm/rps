@@ -52,7 +52,7 @@ def prepare_players(
 def run(opponent_type: str, number_of_computers: int, verbose_opponents: bool):
     """
     Simple RPS game.
-    This version supports only one human player, which would be you, and one computer's opponent of your chosen type.
+    This version supports only one human player, which would be you, and multiple computer's opponent of your chosen type.
     Enjoy the game!
     """
     players = prepare_players(

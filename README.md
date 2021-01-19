@@ -1,5 +1,7 @@
 # ROCK - PAPER - SCISSORS
 
+This version of RPS supports only one human player, which would be you, and multiple computer's opponents of your chosen type.
+
 ## installation
 
 requires at least Python 3.8
@@ -9,6 +11,10 @@ requires at least Python 3.8
 ## run
 
 `python app/main.py`
+
+For the game with multiple players. Run with:
+
+`python app/main.py -n 4`
 
 ## help
 
