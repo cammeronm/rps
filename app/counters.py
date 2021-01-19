@@ -1,7 +1,6 @@
 from typing import List
 
 import click
-
 from oponents import TOpponent
 
 

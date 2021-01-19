@@ -1,9 +1,9 @@
 from collections import defaultdict
+from typing import Dict, List
 
-import emoji
 import click
-from typing import List, Dict
-from enums import ROCK, PAPER, SCISSORS, CHOICE_TO_EMOJI_MAPPING
+import emoji
+from enums import CHOICE_TO_EMOJI_MAPPING, PAPER, ROCK, SCISSORS
 from oponents import TOpponent
 
 

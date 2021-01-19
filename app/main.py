@@ -1,13 +1,11 @@
 import atexit
 from typing import List
 
-from faker import Faker
-
 import click
-
-from oponents import LuckyOpponent, SmartOpponent, HumanOpponent, TOpponent
 from controllers import GameController
 from counters import ScoreCounter
+from faker import Faker
+from oponents import HumanOpponent, LuckyOpponent, SmartOpponent, TOpponent
 
 LUCKY_OPPONENT = "Lucky"
 SMART_OPPONENT = "Smart"

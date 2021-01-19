@@ -1,10 +1,9 @@
+import random
 from typing import Optional, TypeVar
 
 import click
-import random
+from enums import PAPER, ROCK, SCISSORS
 from faker import Faker
-
-from enums import ROCK, PAPER, SCISSORS
 
 
 class BaseOpponent:
