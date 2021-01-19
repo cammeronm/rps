@@ -1,0 +1,4 @@
+Faker==5.6.1
+click==7.1.2
+emoji==0.6.0
+pytest==6.2.1
