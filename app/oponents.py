@@ -38,7 +38,6 @@ class SmartOpponent(BaseOpponent):
 
     def __init__(self, verbose: bool = False, **kwargs):
         super().__init__(**kwargs)
-        click.echo("verbose %s" % verbose)
         self.reveal_strategy: bool = verbose
         self.current_strategy: Optional[str] = SmartOpponent.LUCKY
         self.strategy_remaining_rounds_num: Optional[int] = 0

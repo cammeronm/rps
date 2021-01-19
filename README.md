@@ -2,6 +2,8 @@
 
 ## installation
 
+requires at least Python 3.8
+
 `pip install -r requirements.txt`
 
 ## run
