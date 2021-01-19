@@ -1,6 +1,6 @@
 # ROCK - PAPER - SCISSORS
 
-This version of RPS supports only one human player, which would be you, and multiple computer's opponents of your chosen type.
+This CLI version of RPS supports only one human player, which would be you, and multiple computer's opponents of your chosen type.
 
 ## installation
 
